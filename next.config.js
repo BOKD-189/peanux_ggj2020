@@ -11,4 +11,11 @@ try {
   /* non fatal */
 }
 try {
-  fs.unlinkSync(path.resolve('.
+  fs.unlinkSync(path.resolve('.blog_index_data_previews'))
+} catch (_) {
+  /* non fatal */
+}
+
+const warnOrError =
+  process.env.NODE_ENV !== 'production'
+    ? console.w
