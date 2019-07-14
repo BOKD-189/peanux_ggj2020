@@ -28,4 +28,10 @@ if (!NOTION_TOKEN) {
   // NOTION_TOKEN being populated
   warnOrError(
     `\nNOTION_TOKEN is missing from env, this will result in an error\n` +
-      `Make sure to provide one bef
+      `Make sure to provide one before starting Next.js`
+  )
+}
+
+if (!BLOG_INDEX_ID) {
+  // We aren't able to build or serve images from Notion without the
+  // NOTION_TOKEN being
