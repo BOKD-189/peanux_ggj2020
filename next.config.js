@@ -25,4 +25,7 @@ const warnOrError =
 
 if (!NOTION_TOKEN) {
   // We aren't able to build or serve images from Notion without the
-  // NOTION
+  // NOTION_TOKEN being populated
+  warnOrError(
+    `\nNOTION_TOKEN is missing from env, this will result in an error\n` +
+      `Make sure to provide one bef
