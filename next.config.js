@@ -18,4 +18,11 @@ try {
 
 const warnOrError =
   process.env.NODE_ENV !== 'production'
-    ? console.w
+    ? console.warn
+    : (msg) => {
+        throw new Error(msg)
+      }
+
+if (!NOTION_TOKEN) {
+  // We aren't able to build or serve images from Notion without the
+  // NOTION
