@@ -34,4 +34,7 @@ if (!NOTION_TOKEN) {
 
 if (!BLOG_INDEX_ID) {
   // We aren't able to build or serve images from Notion without the
-  // NOTION_TOKEN being
+  // NOTION_TOKEN being populated
+  warnOrError(
+    `\nBLOG_INDEX_ID is missing from env, this will result in an error\n` +
+      `Make sure to provide one before start
