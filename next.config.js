@@ -37,4 +37,11 @@ if (!BLOG_INDEX_ID) {
   // NOTION_TOKEN being populated
   warnOrError(
     `\nBLOG_INDEX_ID is missing from env, this will result in an error\n` +
-      `Make sure to provide one before start
+      `Make sure to provide one before starting Next.js`
+  )
+}
+
+module.exports = {
+  webpack(cfg, { dev, isServer }) {
+    // only compile build-rss in production server build
+    if (dev || !isServer) retur
