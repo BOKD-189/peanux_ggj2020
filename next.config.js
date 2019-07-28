@@ -53,4 +53,8 @@ module.exports = {
     cfg.entry = async () => {
       const entries = { ...(await originalEntry()) }
       entries['build-rss.js'] = './src/lib/build-rss.ts'
-      return 
+      return entries
+    }
+    return cfg
+  },
+}
