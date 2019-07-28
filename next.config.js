@@ -49,4 +49,8 @@ module.exports = {
     // we're in build mode so enable shared caching for Notion data
     process.env.USE_CACHE = 'true'
 
-    const originalEntry = cfg.entr
+    const originalEntry = cfg.entry
+    cfg.entry = async () => {
+      const entries = { ...(await originalEntry()) }
+      entries['build-rss.js'] = './src/lib/build-rss.ts'
+      return 
