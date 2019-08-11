@@ -12,4 +12,6 @@ To view the steps to setup Notion to work with this example view the post at htt
 
 ## Deploy Your Own
 
-Deploy you
+Deploy your own Notion blog with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ijjk/not
