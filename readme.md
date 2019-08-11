@@ -14,4 +14,9 @@ To view the steps to setup Notion to work with this example view the post at htt
 
 Deploy your own Notion blog with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ijjk/not
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ijjk/notion-blog/tree/main&project-name=notion-blog&repository-name=notion-blog)
+
+or
+
+1. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
+2. Configu
