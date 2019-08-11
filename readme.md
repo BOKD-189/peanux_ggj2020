@@ -8,4 +8,8 @@ This is an example Next.js project that shows Next.js' upcoming SSG (static-site
 
 ## Getting Started
 
-To view the steps to setup Not
+To view the steps to setup Notion to work with this example view the post at https://notion-blog.vercel.app/blog/my-first-post or follow the steps below.
+
+## Deploy Your Own
+
+Deploy you
