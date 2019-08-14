@@ -19,4 +19,5 @@ Deploy your own Notion blog with Vercel.
 or
 
 1. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
-2. Configu
+2. Configure project with [`vc`](https://vercel.com/download)
+3. Add your `NOTION_TOKEN` and `BLOG_INDEX_ID` as environment variables in [your project](https://
