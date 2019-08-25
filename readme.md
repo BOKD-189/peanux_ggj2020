@@ -32,4 +32,6 @@ Note: if redeploying with `vc` locally and you haven't made any changes to the a
 ### Using the Pre-Configured Script
 
 1. Create a blank page in Notion
-2. Clone this repo `git clone ht
+2. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
+3. Install dependencies `cd notion-blog && yarn`
+4. Run script to create table `NOTION_TOKEN='token' BLOG_INDEX_ID='new-
