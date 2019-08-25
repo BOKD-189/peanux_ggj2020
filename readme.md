@@ -27,4 +27,9 @@ Note: if redeploying with `vc` locally and you haven't made any changes to the a
 
 ## Creating Your Pages Table
 
-**Note**: this is auto run 
+**Note**: this is auto run if a table isn't detected the first time visiting `/blog`
+
+### Using the Pre-Configured Script
+
+1. Create a blank page in Notion
+2. Clone this repo `git clone ht
