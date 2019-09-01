@@ -38,4 +38,8 @@ Note: if redeploying with `vc` locally and you haven't made any changes to the a
 
 ### Manually Creating the Table
 
-1. Create a blank 
+1. Create a blank page in Notion
+2. Create a **inline** table on that page, don't use a full page table as it requires querying differently
+3. Add the below fields to the table
+
+The
