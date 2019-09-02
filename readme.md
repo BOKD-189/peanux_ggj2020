@@ -42,4 +42,8 @@ Note: if redeploying with `vc` locally and you haven't made any changes to the a
 2. Create a **inline** table on that page, don't use a full page table as it requires querying differently
 3. Add the below fields to the table
 
-The
+The table should have the following properties:
+
+- `Page`: this the blog post's page
+- `Slug`: this is the blog post's slug relative to `/blog`, it should be a text property
+- 
