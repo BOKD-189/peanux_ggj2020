@@ -50,4 +50,8 @@ The table should have the following properties:
 - `Date`: this is when the blog post appears as posted, it should be a date property
 - `Authors`: this is a list of Notion users that wrote the post, it should be a person property
 
-![Example Blog Posts Table](./assets/table
+![Example Blog Posts Table](./assets/table-view.png)
+
+## Getting Blog Index and Token
+
+To get your blog index value, open Notion and Navigate to the Notion page with the table you created abov
