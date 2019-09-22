@@ -54,4 +54,6 @@ The table should have the following properties:
 
 ## Getting Blog Index and Token
 
-To get your blog index value, open Notion and Navigate to the Notion page with the table you created abov
+To get your blog index value, open Notion and Navigate to the Notion page with the table you created above. While on this page you should be able to get the page id from either:
+
+- the URL, if the URL of your page is https://www.notion.so/Blog-S5qv
