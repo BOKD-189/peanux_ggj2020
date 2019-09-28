@@ -59,4 +59,9 @@ To get your blog index value, open Notion and Navigate to the Notion page with t
 - the URL, if the URL of your page is https://www.notion.so/Blog-S5qv1QbUzM1wxm3H3SZRQkupi7XjXTul then your `BLOG_INDEX_ID` is `S5qv1QbU-zM1w-xm3H-3SZR-Qkupi7XjXTul`
 - the `loadPageChunk` request, if you open your developer console and go to the network tab then reload the page you should see a request for `loadPageChunk` and in the request payload you should see a `pageId` and that is your `BLOG_INDEX_ID`
 
-To get y
+To get your Notion token, open Notion and look for the `token_v2` cookie.
+
+## Creating Blog Posts
+
+1. In Notion click new on the table to add a new row
+2. 
