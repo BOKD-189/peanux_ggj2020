@@ -64,4 +64,5 @@ To get your Notion token, open Notion and look for the `token_v2` cookie.
 ## Creating Blog Posts
 
 1. In Notion click new on the table to add a new row
-2. 
+2. Fill in the Page name, slug, Date, and Authors
+3. At the top of the content area add the content you want to show as a preview (keep this under 2 par
