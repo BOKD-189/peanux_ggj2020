@@ -71,4 +71,7 @@ To get your Notion token, open Notion and look for the `token_v2` cookie.
 
 ## Running Locally
 
-To run
+To run the project locally you need to follow steps 1 and 2 of [deploying](#deploy-your-own) and then follow the below steps
+
+1. Install dependencies `yarn`
+2. Expose `NOTION_TOKEN` and `B
