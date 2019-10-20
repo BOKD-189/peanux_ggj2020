@@ -78,4 +78,8 @@ To run the project locally you need to follow steps 1 and 2 of [deploying](#depl
 3. Run next in development mode `yarn dev`
 4. Build and run in production mode `yarn build && yarn start`
 
-## C
+## Credits
+
+- Guillermo Rauch [@rauchg](https://twitter.com/rauchg) for the initial idea
+- Shu Ding [@shuding\_](https://twitter.com/shuding_) for the design help
+-
