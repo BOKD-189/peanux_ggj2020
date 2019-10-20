@@ -5,4 +5,9 @@ const Code = ({ children, language = 'javascript' }) => {
   return (
     <>
       <pre>
-        <c
+        <code
+          dangerouslySetInnerHTML={{
+            __html: Prism.highlight(
+              children,
+              Prism.languages[language.toLowerCase()] ||
+     
