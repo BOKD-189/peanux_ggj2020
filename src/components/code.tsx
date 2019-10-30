@@ -10,4 +10,15 @@ const Code = ({ children, language = 'javascript' }) => {
             __html: Prism.highlight(
               children,
               Prism.languages[language.toLowerCase()] ||
-     
+                Prism.languages.javascript
+            ),
+          }}
+        />
+      </pre>
+
+      <style jsx>{`
+        pre {
+          tab-size: 2;
+        }
+
+        cod
