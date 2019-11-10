@@ -1,0 +1,1 @@
+import Lightning from './svgs/lightning
