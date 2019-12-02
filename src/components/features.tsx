@@ -13,4 +13,15 @@ const features = [
     icon: Lightning,
   },
   {
-    t
+    text: 'JAMstack based',
+    icon: Jamstack,
+  },
+  {
+    text: 'Always available',
+    icon: Wifi,
+  },
+  {
+    text: 'Customizable',
+    icon: Edit,
+  },
+  
