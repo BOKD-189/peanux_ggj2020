@@ -24,4 +24,14 @@ const features = [
     text: 'Customizable',
     icon: Edit,
   },
-  
+  {
+    text: 'Incremental SSG',
+    icon: Plus,
+  },
+  {
+    text: 'MIT Licensed',
+    icon: Scroll,
+  },
+  {
+    text: 'Edit via Notion',
+    icon: N
