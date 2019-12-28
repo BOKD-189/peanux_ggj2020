@@ -34,4 +34,14 @@ const features = [
   },
   {
     text: 'Edit via Notion',
-    icon: N
+    icon: Notion,
+  },
+  {
+    text: 'Great scores',
+    icon: Lighthouse,
+  },
+]
+
+const Features = () => (
+  <div className="features">
+    {features.map(({ text, i
