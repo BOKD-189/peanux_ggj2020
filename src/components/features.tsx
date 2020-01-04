@@ -53,4 +53,4 @@ const Features = () => (
   </div>
 )
 
-export def
+export default Features
