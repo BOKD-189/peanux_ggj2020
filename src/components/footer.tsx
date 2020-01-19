@@ -10,4 +10,10 @@ export default function Footer() {
             src="https://vercel.com/button"
             height={46}
             width={132}
-            alt="deploy t
+            alt="deploy to Vercel button"
+          />
+        </ExtLink>
+        <span>
+          or{' '}
+          <ExtLink href="https://github.com/ijjk/notion-blog">
+        
