@@ -12,4 +12,11 @@ const Heading = ({ children: component, id }: { children: any; id?: any }) => {
   let text = children
 
   if (null == id) {
-    id 
+    id = collectText(text)
+      .toLowerCase()
+      .replace(/\s/g, '-')
+      .replace(/[?!:]/g, '')
+  }
+
+  return (
+    <a href={`#${id}`} id={id} style={{ color: 'in
