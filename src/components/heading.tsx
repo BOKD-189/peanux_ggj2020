@@ -19,4 +19,10 @@ const Heading = ({ children: component, id }: { children: any; id?: any }) => {
   }
 
   return (
-    <a href={`#${id}`} id={id} style={{ color: 'in
+    <a href={`#${id}`} id={id} style={{ color: 'inherit' }}>
+      {component}
+    </a>
+  )
+}
+
+export default Heading
