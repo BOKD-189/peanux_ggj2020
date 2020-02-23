@@ -7,4 +7,10 @@ const Edit = (props) => (
     strokeLinejoin="round"
     fill="none"
     shapeRendering="geometricPrecision"
-    {..
+    {...props}
+  >
+    <path d="M4 21v-7" />
+    <path d="M4 10V3" />
+    <path d="M12 21v-9" />
+    <path d="M12 8V3" />
+    <path d="M20 21
