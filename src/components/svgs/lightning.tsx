@@ -1,0 +1,2 @@
+const Lightning = (props) => (
+  <svg
