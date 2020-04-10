@@ -6,4 +6,10 @@ const Plus = (props) => (
     stroke="currentColor"
     strokeWidth="1.5"
     strokeLinecap="round"
-    s
+    strokeLinejoin="round"
+    fill="none"
+    shapeRendering="geometricPrecision"
+    {...props}
+  >
+    <path d="M23 6l-9.5 9.5-5-5L1 18" />
+    <path d="M17 6h6v6" />
