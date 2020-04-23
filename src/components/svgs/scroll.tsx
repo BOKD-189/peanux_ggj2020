@@ -4,4 +4,11 @@ const Scroll = (props) => (
     width="24"
     height="24"
     stroke="currentColor"
-    stro
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+    shapeRendering="geometricPrecision"
+    {...props}
+  >
+    <path d="M14 2H6a2 2 
