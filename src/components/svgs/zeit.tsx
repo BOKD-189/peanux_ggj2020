@@ -10,4 +10,11 @@ const Zeit = (props) => (
         id="prefix__a"
       >
         <stop stopColor="#FFF" offset="0%" />
-        <stop offset="100%
+        <stop offset="100%" />
+      </linearGradient>
+    </defs>
+    <path
+      d="M350 150l57 100H293z"
+      transform="translate(-293 -150)"
+      fill="url(#prefix__a)"
+      f
