@@ -17,4 +17,9 @@ const Zeit = (props) => (
       d="M350 150l57 100H293z"
       transform="translate(-293 -150)"
       fill="url(#prefix__a)"
-      f
+      fillRule="evenodd"
+    />
+  </svg>
+)
+
+export default Zeit
