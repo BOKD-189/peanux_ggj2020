@@ -11,4 +11,10 @@ import serverConstants from './notion/server-constants'
 
 // must use weird syntax to bypass auto replacing of NODE_ENV
 process.env['NODE' + '_ENV'] = 'production'
-process.en
+process.env.USE_CACHE = 'true'
+
+// constants
+const NOW = new Date().toJSON()
+
+function mapToAuthor(author) {
+  return `<author><name>${author.full_
