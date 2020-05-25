@@ -17,4 +17,12 @@ process.env.USE_CACHE = 'true'
 const NOW = new Date().toJSON()
 
 function mapToAuthor(author) {
-  return `<author><name>${author.full_
+  return `<author><name>${author.full_name}</name></author>`
+}
+
+function decode(string) {
+  return string
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;'
