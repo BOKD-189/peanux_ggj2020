@@ -37,4 +37,8 @@ function mapToEntry(post) {
       <link href="${post.link}"/>
       <updated>${new Date(post.date).toJSON()}</updated>
       <content type="xhtml">
-        <div xmlns="http:/
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          ${renderToStaticMarkup(
+            post.preview
+              ? (post.preview || []).map((block, idx) =>
+                  textBlock(block, fal
