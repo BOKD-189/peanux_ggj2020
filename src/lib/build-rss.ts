@@ -34,4 +34,7 @@ function mapToEntry(post) {
     <entry>
       <id>${post.link}</id>
       <title>${decode(post.title)}</title>
- 
+      <link href="${post.link}"/>
+      <updated>${new Date(post.date).toJSON()}</updated>
+      <content type="xhtml">
+        <div xmlns="http:/
