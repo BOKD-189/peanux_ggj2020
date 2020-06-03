@@ -47,4 +47,12 @@ function mapToEntry(post) {
           )}
           <p class="more">
             <a href="${post.link}">Read more</a>
-          <
+          </p>
+        </div>
+      </content>
+      ${(post.authors || []).map(mapToAuthor).join('\n      ')}
+    </entry>`
+}
+
+function concat(total, item) {
+  return total + item
