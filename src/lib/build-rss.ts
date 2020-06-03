@@ -41,4 +41,10 @@ function mapToEntry(post) {
           ${renderToStaticMarkup(
             post.preview
               ? (post.preview || []).map((block, idx) =>
-                  textBlock(block, fal
+                  textBlock(block, false, post.title + idx)
+                )
+              : post.content
+          )}
+          <p class="more">
+            <a href="${post.link}">Read more</a>
+          <
