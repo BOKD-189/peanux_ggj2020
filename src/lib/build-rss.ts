@@ -56,3 +56,10 @@ function mapToEntry(post) {
 
 function concat(total, item) {
   return total + item
+}
+
+function createRSS(blogPosts = []) {
+  const postsString = blogPosts.map(mapToEntry).reduce(concat, '')
+
+  return `<?xml version="1.0" encoding="utf-8"?>
+  <feed
