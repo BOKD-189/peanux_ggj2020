@@ -66,4 +66,11 @@ function createRSS(blogPosts = []) {
     <title>My Blog</title>
     <subtitle>Blog</subtitle>
     <link href="/atom" rel="self" type="application/rss+xml"/>
-   
+    <link href="/" />
+    <updated>${NOW}</updated>
+    <id>My Notion Blog</id>${postsString}
+  </feed>`
+}
+
+async function main() {
+  await loadEnvConfig(process.cwd())
