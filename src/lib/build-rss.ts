@@ -79,4 +79,9 @@ async function main() {
     process.env.BLOG_INDEX_ID
   )
 
-  const postsTable = a
+  const postsTable = await getBlogIndex(true)
+  const neededAuthors = new Set<string>()
+
+  const blogPosts = Object.keys(postsTable)
+    .map((slug) => {
+      const post = postsTab
