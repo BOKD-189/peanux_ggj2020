@@ -84,4 +84,10 @@ async function main() {
 
   const blogPosts = Object.keys(postsTable)
     .map((slug) => {
-      const post = postsTab
+      const post = postsTable[slug]
+      if (!postIsPublished(post)) return
+
+      post.authors = post.Authors || []
+
+      for (const author of post.authors) {
+        need
