@@ -98,4 +98,8 @@ async function main() {
 
   const { users } = await getNotionUsers([...neededAuthors])
 
-  blogPosts
+  blogPosts.forEach((post) => {
+    post.authors = post.authors.map((id) => users[id])
+    post.link = getBlogLink(post.Slug)
+    post.title = post.Page
+    post.d
