@@ -90,4 +90,12 @@ async function main() {
       post.authors = post.Authors || []
 
       for (const author of post.authors) {
-        need
+        neededAuthors.add(author)
+      }
+      return post
+    })
+    .filter(Boolean)
+
+  const { users } = await getNotionUsers([...neededAuthors])
+
+  blogPosts
