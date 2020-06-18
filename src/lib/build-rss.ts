@@ -102,4 +102,9 @@ async function main() {
     post.authors = post.authors.map((id) => users[id])
     post.link = getBlogLink(post.Slug)
     post.title = post.Page
-    post.d
+    post.date = post.Date
+  })
+
+  const outputPath = './public/atom'
+  await writeFile(resolve(outputPath), createRSS(blogPosts))
+  console.log(`Atom feed file generated at \`
