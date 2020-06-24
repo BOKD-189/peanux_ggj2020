@@ -9,4 +9,9 @@ const {
 
 async function main() {
   const userId = await getUserId()
-  
+  const transactionId = () => uuid()
+  const collectionId = uuid()
+  const collectionViewId = uuid()
+  const viewId = uuid()
+  const now = Date.now()
+  cons
