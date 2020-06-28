@@ -28,4 +28,9 @@ async function main() {
           {
             id: collectionId,
             table: 'block',
-            path: []
+            path: [],
+            command: 'update',
+            args: {
+              id: collectionId,
+              type: 'collection_view',
+              collection_id:
