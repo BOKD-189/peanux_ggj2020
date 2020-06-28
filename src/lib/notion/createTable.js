@@ -20,4 +20,12 @@ async function main() {
   let existingBlockId = await getExistingexistingBlockId()
 
   const requestBody = {
-    
+    requestId: uuid(),
+    transactions: [
+      {
+        id: transactionId(),
+        operations: [
+          {
+            id: collectionId,
+            table: 'block',
+            path: []
