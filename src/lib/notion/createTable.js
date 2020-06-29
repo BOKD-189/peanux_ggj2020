@@ -33,4 +33,9 @@ async function main() {
             args: {
               id: collectionId,
               type: 'collection_view',
-              collection_id:
+              collection_id: collectionViewId,
+              view_ids: [viewId],
+              properties: {},
+              created_time: now,
+              last_edited_time: now,
+           
