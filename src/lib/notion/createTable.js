@@ -45,4 +45,9 @@ async function main() {
             table: 'block',
             path: [],
             command: 'update',
-            ar
+            args: {
+              id: pageId1,
+              type: 'page',
+              parent_id: collectionViewId,
+              parent_table: 'collection',
+              al
