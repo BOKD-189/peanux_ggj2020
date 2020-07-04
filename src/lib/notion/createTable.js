@@ -38,4 +38,11 @@ async function main() {
               properties: {},
               created_time: now,
               last_edited_time: now,
-           
+            },
+          },
+          {
+            id: pageId1,
+            table: 'block',
+            path: [],
+            command: 'update',
+            ar
