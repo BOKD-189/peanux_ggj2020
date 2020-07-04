@@ -50,4 +50,10 @@ async function main() {
               type: 'page',
               parent_id: collectionViewId,
               parent_table: 'collection',
-              al
+              alive: true,
+              properties: {},
+              created_time: now,
+              last_edited_time: now,
+            },
+          },
+    
