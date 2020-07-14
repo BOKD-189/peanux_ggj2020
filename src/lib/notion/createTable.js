@@ -56,4 +56,10 @@ async function main() {
               last_edited_time: now,
             },
           },
-    
+          {
+            id: pageId2,
+            table: 'block',
+            path: [],
+            command: 'update',
+            args: {
+              id: pageId
