@@ -62,4 +62,9 @@ async function main() {
             path: [],
             command: 'update',
             args: {
-              id: pageId
+              id: pageId2,
+              type: 'page',
+              parent_id: collectionViewId,
+              parent_table: 'collection',
+              alive: true,
+              p
