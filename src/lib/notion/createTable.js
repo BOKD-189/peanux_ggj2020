@@ -67,4 +67,11 @@ async function main() {
               parent_id: collectionViewId,
               parent_table: 'collection',
               alive: true,
-              p
+              properties: {},
+              created_time: now,
+              last_edited_time: now,
+            },
+          },
+          {
+            id: pageId3,
+            ta
