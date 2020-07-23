@@ -74,4 +74,10 @@ async function main() {
           },
           {
             id: pageId3,
-            ta
+            table: 'block',
+            path: [],
+            command: 'update',
+            args: {
+              id: pageId3,
+              type: 'page',
+              p
