@@ -80,4 +80,9 @@ async function main() {
             args: {
               id: pageId3,
               type: 'page',
-              p
+              parent_id: collectionViewId,
+              parent_table: 'collection',
+              alive: true,
+              properties: {},
+              created_time: now,
+       
