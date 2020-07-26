@@ -109,4 +109,8 @@ async function main() {
                 table_wrap: true,
               },
               query2: {
-                aggregations: [{ property: 'title', a
+                aggregations: [{ property: 'title', aggregator: 'count' }],
+              },
+              page_sort: [pageId1, pageId2, pageId3],
+              parent_id: collectionId,
+              par
