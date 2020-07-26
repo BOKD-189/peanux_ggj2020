@@ -101,4 +101,7 @@ async function main() {
               format: {
                 table_properties: [
                   { property: 'title', visible: true, width: 276 },
-                  { prope
+                  { property: 'S6_"', visible: true },
+                  { property: 'la`A', visible: true },
+                  { property: 'a`af', visible: true },
+                  { property:
