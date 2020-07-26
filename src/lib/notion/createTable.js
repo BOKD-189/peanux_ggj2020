@@ -97,4 +97,8 @@ async function main() {
               id: viewId,
               version: 0,
               type: 'table',
-              name:
+              name: 'Default View',
+              format: {
+                table_properties: [
+                  { property: 'title', visible: true, width: 276 },
+                  { prope
