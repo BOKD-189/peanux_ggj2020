@@ -91,4 +91,10 @@ async function main() {
           {
             id: viewId,
             table: 'collection_view',
-            path: 
+            path: [],
+            command: 'update',
+            args: {
+              id: viewId,
+              version: 0,
+              type: 'table',
+              name:
