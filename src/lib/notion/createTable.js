@@ -104,4 +104,9 @@ async function main() {
                   { property: 'S6_"', visible: true },
                   { property: 'la`A', visible: true },
                   { property: 'a`af', visible: true },
-                  { property:
+                  { property: 'ijjk', visible: true },
+                ],
+                table_wrap: true,
+              },
+              query2: {
+                aggregations: [{ property: 'title', a
