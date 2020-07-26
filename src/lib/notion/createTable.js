@@ -85,4 +85,10 @@ async function main() {
               alive: true,
               properties: {},
               created_time: now,
-       
+              last_edited_time: now,
+            },
+          },
+          {
+            id: viewId,
+            table: 'collection_view',
+            path: 
