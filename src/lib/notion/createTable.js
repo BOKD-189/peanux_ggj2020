@@ -138,4 +138,12 @@ async function main() {
                   { property: 'a`af', visible: true },
                   { property: 'ijjk', visible: true },
                 ],
-              }
+              },
+              parent_id: collectionId,
+              parent_table: 'block',
+              alive: true,
+            },
+          },
+          {
+            id: collectionId,
+            table: 'b
