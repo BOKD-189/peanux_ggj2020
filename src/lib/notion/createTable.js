@@ -127,4 +127,8 @@ async function main() {
               schema: {
                 title: { name: 'Page', type: 'title' },
                 'S6_"': { name: 'Slug', type: 'text' },
-                'la`A': { name: 'Published', t
+                'la`A': { name: 'Published', type: 'checkbox' },
+                'a`af': { name: 'Date', type: 'date' },
+                ijjk: { name: 'Authors', type: 'person' },
+              },
+              format: {
