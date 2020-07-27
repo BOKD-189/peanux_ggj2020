@@ -132,3 +132,7 @@ async function main() {
                 ijjk: { name: 'Authors', type: 'person' },
               },
               format: {
+                collection_page_properties: [
+                  { property: 'S6_"', visible: true },
+                  { property: 'la`A', visible: true },
+ 
