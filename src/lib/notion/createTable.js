@@ -146,4 +146,8 @@ async function main() {
           },
           {
             id: collectionId,
-            table: 'b
+            table: 'block',
+            path: [],
+            command: 'update',
+            args: { parent_id: pageId, parent_table: 'block', alive: true },
+          
