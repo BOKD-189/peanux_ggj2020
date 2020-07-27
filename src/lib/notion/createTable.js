@@ -135,4 +135,7 @@ async function main() {
                 collection_page_properties: [
                   { property: 'S6_"', visible: true },
                   { property: 'la`A', visible: true },
- 
+                  { property: 'a`af', visible: true },
+                  { property: 'ijjk', visible: true },
+                ],
+              }
