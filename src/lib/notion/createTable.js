@@ -113,4 +113,10 @@ async function main() {
               },
               page_sort: [pageId1, pageId2, pageId3],
               parent_id: collectionId,
-              par
+              parent_table: 'block',
+              alive: true,
+            },
+          },
+          {
+            id: collectionViewId,
+            table: 'collectio
