@@ -119,4 +119,10 @@ async function main() {
           },
           {
             id: collectionViewId,
-            table: 'collectio
+            table: 'collection',
+            path: [],
+            command: 'update',
+            args: {
+              id: collectionViewId,
+              schema: {
+                title: {
