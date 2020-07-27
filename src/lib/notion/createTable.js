@@ -125,4 +125,6 @@ async function main() {
             args: {
               id: collectionViewId,
               schema: {
-                title: {
+                title: { name: 'Page', type: 'title' },
+                'S6_"': { name: 'Slug', type: 'text' },
+                'la`A': { name: 'Published', t
