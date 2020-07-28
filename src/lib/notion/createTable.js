@@ -162,4 +162,12 @@ async function main() {
                     after: existingBlockId,
                   }
                 : {}),
-              id: collectio
+              id: collectionId,
+            },
+          },
+          {
+            table: 'block',
+            id: collectionId,
+            path: ['created_by_id'],
+            command: 'set',
+            args
