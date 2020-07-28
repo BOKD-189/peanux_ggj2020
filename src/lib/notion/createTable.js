@@ -176,4 +176,10 @@ async function main() {
             table: 'block',
             id: collectionId,
             path: ['created_by_table'],
-            command: 'set
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'block',
+            id: collectionId,
+            path: ['last_edited_time']
