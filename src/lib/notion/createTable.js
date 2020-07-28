@@ -170,4 +170,10 @@ async function main() {
             id: collectionId,
             path: ['created_by_id'],
             command: 'set',
-            args
+            args: userId,
+          },
+          {
+            table: 'block',
+            id: collectionId,
+            path: ['created_by_table'],
+            command: 'set
