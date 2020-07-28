@@ -157,4 +157,9 @@ async function main() {
             path: ['content'],
             command: 'listAfter',
             args: {
-  
+              ...(existingBlockId
+                ? {
+                    after: existingBlockId,
+                  }
+                : {}),
+              id: collectio
