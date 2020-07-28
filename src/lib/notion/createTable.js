@@ -150,4 +150,11 @@ async function main() {
             path: [],
             command: 'update',
             args: { parent_id: pageId, parent_table: 'block', alive: true },
-          
+          },
+          {
+            table: 'block',
+            id: pageId,
+            path: ['content'],
+            command: 'listAfter',
+            args: {
+  
