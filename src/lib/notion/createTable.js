@@ -182,4 +182,11 @@ async function main() {
           {
             table: 'block',
             id: collectionId,
-            path: ['last_edited_time']
+            path: ['last_edited_time'],
+            command: 'set',
+            args: now,
+          },
+          {
+            table: 'block',
+            id: collectionId,
+            path: ['last_edit
