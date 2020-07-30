@@ -196,4 +196,9 @@ async function main() {
           {
             table: 'block',
             id: collectionId,
- 
+            path: ['last_edited_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'b
