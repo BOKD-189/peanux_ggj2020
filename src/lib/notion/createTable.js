@@ -226,4 +226,10 @@ async function main() {
             id: pageId1,
             path: ['last_edited_by_id'],
             command: 'set',
-            ar
+            args: userId,
+          },
+          {
+            table: 'block',
+            id: pageId1,
+            path: ['last_edited_by_table'],
+            c
