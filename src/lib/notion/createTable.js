@@ -215,3 +215,9 @@ async function main() {
             args: 'notion_user',
           },
           {
+            table: 'block',
+            id: pageId1,
+            path: ['last_edited_time'],
+            command: 'set',
+            args: now,
+        
