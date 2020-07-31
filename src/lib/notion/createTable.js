@@ -220,4 +220,10 @@ async function main() {
             path: ['last_edited_time'],
             command: 'set',
             args: now,
-        
+          },
+          {
+            table: 'block',
+            id: pageId1,
+            path: ['last_edited_by_id'],
+            command: 'set',
+            ar
