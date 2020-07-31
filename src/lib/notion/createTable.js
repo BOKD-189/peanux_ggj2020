@@ -238,4 +238,11 @@ async function main() {
           {
             table: 'block',
             id: pageId2,
-            path: ['cr
+            path: ['created_by_id'],
+            command: 'set',
+            args: userId,
+          },
+          {
+            table: 'block',
+            id: pageId2,
+            path: ['
