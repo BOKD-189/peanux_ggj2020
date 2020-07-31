@@ -208,4 +208,10 @@ async function main() {
             args: userId,
           },
           {
-            table
+            table: 'block',
+            id: pageId1,
+            path: ['created_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
