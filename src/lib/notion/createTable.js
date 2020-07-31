@@ -232,4 +232,10 @@ async function main() {
             table: 'block',
             id: pageId1,
             path: ['last_edited_by_table'],
-            c
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'block',
+            id: pageId2,
+            path: ['cr
