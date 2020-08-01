@@ -245,4 +245,11 @@ async function main() {
           {
             table: 'block',
             id: pageId2,
-            path: ['
+            path: ['created_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'block',
+            id: pageId2,
+         
