@@ -252,4 +252,11 @@ async function main() {
           {
             table: 'block',
             id: pageId2,
-         
+            path: ['last_edited_time'],
+            command: 'set',
+            args: now,
+          },
+          {
+            table: 'block',
+            id: pageId2,
+            path: [
