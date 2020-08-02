@@ -293,4 +293,11 @@ async function main() {
           },
           {
             table: 'block',
-            id: pageI
+            id: pageId3,
+            path: ['last_edited_by_id'],
+            command: 'set',
+            args: userId,
+          },
+          {
+            table: 'block',
+            id:
