@@ -266,4 +266,10 @@ async function main() {
           {
             table: 'block',
             id: pageId2,
-            path: ['l
+            path: ['last_edited_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'block',
+      
