@@ -279,4 +279,11 @@ async function main() {
           },
           {
             table: 'block',
-            id: p
+            id: pageId3,
+            path: ['created_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+          {
+            table: 'block',
+            i
