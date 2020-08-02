@@ -300,4 +300,11 @@ async function main() {
           },
           {
             table: 'block',
-            id:
+            id: pageId3,
+            path: ['last_edited_by_table'],
+            command: 'set',
+            args: 'notion_user',
+          },
+        ],
+      },
+    ],
