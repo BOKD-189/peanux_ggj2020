@@ -272,4 +272,11 @@ async function main() {
           },
           {
             table: 'block',
-      
+            id: pageId3,
+            path: ['created_by_id'],
+            command: 'set',
+            args: userId,
+          },
+          {
+            table: 'block',
+            id: p
