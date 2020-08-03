@@ -308,3 +308,10 @@ async function main() {
         ],
       },
     ],
+  }
+
+  const res = await fetch(`${API_ENDPOINT}/submitTransaction`, {
+    method: 'POST',
+    headers: {
+      cookie: `token_v2=${NOTION_TOKEN}`,
+ 
