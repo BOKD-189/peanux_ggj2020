@@ -314,4 +314,10 @@ async function main() {
     method: 'POST',
     headers: {
       cookie: `token_v2=${NOTION_TOKEN}`,
- 
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(requestBody),
+  })
+
+  if (!res.ok) {
+    throw new Error(`Failed to add tab
