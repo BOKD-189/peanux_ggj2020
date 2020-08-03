@@ -320,4 +320,9 @@ async function main() {
   })
 
   if (!res.ok) {
-    throw new Error(`Failed to add tab
+    throw new Error(`Failed to add table, request status ${res.status}`)
+  }
+}
+
+async function getExistingexistingBlockId() {
+  const res = await fetch(`${API_ENDPOINT}/loadPageChunk`
