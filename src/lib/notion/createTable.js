@@ -353,4 +353,12 @@ async function getExistingexistingBlockId() {
 }
 
 async function getUserId() {
-  const res = await fetch(`${API_ENDPOINT}/lo
+  const res = await fetch(`${API_ENDPOINT}/loadUserContent`, {
+    method: 'POST',
+    headers: {
+      cookie: `token_v2=${NOTION_TOKEN}`,
+      'content-type': 'application/json',
+    },
+    body: '{}',
+  })
+
