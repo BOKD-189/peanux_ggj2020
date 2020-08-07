@@ -362,3 +362,9 @@ async function getUserId() {
     body: '{}',
   })
 
+  if (!res.ok) {
+    throw new Error(
+      `failed to get Notion user id, request status: ${res.status}`
+    )
+  }
+  const data = await res.j
