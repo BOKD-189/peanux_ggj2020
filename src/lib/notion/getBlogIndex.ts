@@ -62,3 +62,16 @@ export default async function getBlogIndex(previews = true) {
             const post = postsTable[postKey]
             post.preview = post.id
               ? await getPostPreview(postsTable[postKey].id)
+              : []
+            sema.release()
+          })
+      )
+    }
+
+    if (useCache) {
+      writeFile(cacheFile, JSON.stringify(postsTable), 'utf8').catch(() => {})
+    }
+  }
+
+  return postsTable
+}
