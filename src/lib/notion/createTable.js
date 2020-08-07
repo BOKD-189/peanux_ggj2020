@@ -367,4 +367,8 @@ async function getUserId() {
       `failed to get Notion user id, request status: ${res.status}`
     )
   }
-  const data = await res.j
+  const data = await res.json()
+  return Object.keys(data.recordMap.notion_user)[0]
+}
+
+module.exports = main
