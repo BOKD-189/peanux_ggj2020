@@ -14,4 +14,11 @@ export default async function getNotionAsset(
   const assetRes = await fetch(requestURL, {
     method: 'POST',
     headers: {
-      cookie: `token_v2=${NOTION_TOKEN}`
+      cookie: `token_v2=${NOTION_TOKEN}`,
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      urls: [
+        {
+          url: assetUrl,
+          permi
