@@ -21,4 +21,15 @@ export default async function getNotionAsset(
       urls: [
         {
           url: assetUrl,
-          permi
+          permissionRecord: {
+            table: 'block',
+            id: blockId,
+          },
+        },
+      ],
+    }),
+  })
+
+  if (assetRes.ok) {
+    return assetRes.json()
+  } else 
