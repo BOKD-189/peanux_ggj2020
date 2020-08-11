@@ -20,3 +20,7 @@ export default async function getPageData(pageId: string) {
       // remove table blocks
       blockArray.splice(0, 3)
     }
+    return { blocks: blockArray }
+  } catch (err) {
+    console.error(`Failed to load pageData for ${pageId}`, err)
+    return { blocks: [] }
