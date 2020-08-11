@@ -24,3 +24,14 @@ export default async function getPageData(pageId: string) {
   } catch (err) {
     console.error(`Failed to load pageData for ${pageId}`, err)
     return { blocks: [] }
+  }
+}
+
+export function loadPageChunk({
+  pageId,
+  limit = 30,
+  cursor = { stack: [] },
+  chunkNumber = 0,
+  verticalColumns = false,
+}: any) {
+  return rpc('loadPa
