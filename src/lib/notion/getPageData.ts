@@ -14,3 +14,9 @@ export default async function getPageData(pageId: string) {
       chunkNumber = chunkNumber + 1
       data = await loadPageChunk({ pageId, chunkNumber, cursor: data.cursor })
       blocks = Object.assign(blocks, data.recordMap.block)
+    }
+    const blockArray = values(blocks)
+    if (blockArray[0] && blockArray[0].value.content) {
+      // remove table blocks
+      blockArray.splice(0, 3)
+    }
