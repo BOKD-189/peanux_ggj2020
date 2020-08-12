@@ -34,4 +34,11 @@ export function loadPageChunk({
   chunkNumber = 0,
   verticalColumns = false,
 }: any) {
-  return rpc('loadPa
+  return rpc('loadPageChunk', {
+    pageId,
+    limit,
+    cursor,
+    chunkNumber,
+    verticalColumns,
+  })
+}
