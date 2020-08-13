@@ -16,4 +16,11 @@ export default function queryCollection({
           loadContentCover: true,
         },
         'table:uncategorized:title:count': {
-          
+          type: 'aggregation',
+          aggregation: {
+            property: 'title',
+            aggregator: 'count',
+          },
+        },
+      },
+    
