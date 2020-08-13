@@ -11,4 +11,9 @@ export default function queryCollection({
       type: 'reducer',
       reducers: {
         collection_group_results: {
-      
+          type: 'results',
+          limit: 999,
+          loadContentCover: true,
+        },
+        'table:uncategorized:title:count': {
+          
