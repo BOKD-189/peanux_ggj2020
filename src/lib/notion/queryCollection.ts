@@ -23,4 +23,12 @@ export default function queryCollection({
           },
         },
       },
-    
+      searchQuery: '',
+      userTimeZone: 'America/Phoenix',
+    },
+  }
+
+  return rpc('queryCollection', {
+    collectionId,
+    collectionViewId,
+    ...queryCollectionB
