@@ -8,4 +8,8 @@ function applyTags(tags = [], children, noPTag = false, key) {
     const props: { [key: string]: any } = { key }
     let tagName = tag[0]
 
-    if (noPTag && tagNa
+    if (noPTag && tagName === 'p') tagName = React.Fragment
+    if (tagName === 'c') tagName = 'code'
+    if (tagName === '_') {
+      tagName = 'span'
+      props.classNam
