@@ -12,4 +12,11 @@ function applyTags(tags = [], children, noPTag = false, key) {
     if (tagName === 'c') tagName = 'code'
     if (tagName === '_') {
       tagName = 'span'
-      props.classNam
+      props.className = 'underline'
+    }
+    if (tagName === 'a') {
+      props.href = tag[1]
+    }
+    if (tagName === 'e') {
+      tagName = components.Equation
+      props.displa
