@@ -19,4 +19,13 @@ function applyTags(tags = [], children, noPTag = false, key) {
     }
     if (tagName === 'e') {
       tagName = components.Equation
-      props.displa
+      props.displayMode = false
+      child = tag[1]
+    }
+
+    child = React.createElement(components[tagName] || tagName, props, child)
+  }
+  return child
+}
+
+export f
