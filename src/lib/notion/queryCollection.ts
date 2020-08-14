@@ -31,4 +31,6 @@ export default function queryCollection({
   return rpc('queryCollection', {
     collectionId,
     collectionViewId,
-    ...queryCollectionB
+    ...queryCollectionBody,
+  })
+}
