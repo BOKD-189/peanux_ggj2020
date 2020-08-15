@@ -28,4 +28,10 @@ function applyTags(tags = [], children, noPTag = false, key) {
   return child
 }
 
-export f
+export function textBlock(text = [], noPTag = false, mainKey) {
+  const children = []
+  let key = 0
+
+  for (const textItem of text) {
+    key++
+    if (textItem.length
