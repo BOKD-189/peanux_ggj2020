@@ -34,4 +34,10 @@ export function textBlock(text = [], noPTag = false, mainKey) {
 
   for (const textItem of text) {
     key++
-    if (textItem.length
+    if (textItem.length === 1) {
+      children.push(textItem)
+      continue
+    }
+    children.push(applyTags(textItem[1], textItem[0], noPTag, key))
+  }
+  return React.create
