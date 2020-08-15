@@ -40,4 +40,10 @@ export function textBlock(text = [], noPTag = false, mainKey) {
     }
     children.push(applyTags(textItem[1], textItem[0], noPTag, key))
   }
-  return React.create
+  return React.createElement(
+    noPTag ? React.Fragment : components.p,
+    { key: mainKey },
+    ...children,
+    noPTag
+  )
+}
