@@ -7,4 +7,12 @@ export default async function rpc(fnName: string, body: any) {
   }
   const res = await fetch(`${API_ENDPOINT}/${fnName}`, {
     method: 'POST',
-    h
+    headers: {
+      'content-type': 'application/json',
+      cookie: `token_v2=${NOTION_TOKEN}`,
+    },
+    body: JSON.stringify(body),
+  })
+
+  if (res.ok) {
+    r
