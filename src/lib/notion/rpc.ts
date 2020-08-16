@@ -15,4 +15,11 @@ export default async function rpc(fnName: string, body: any) {
   })
 
   if (res.ok) {
-    r
+    return res.json()
+  } else {
+    throw new Error(await getError(res))
+  }
+}
+
+export async function getError(res: Response) {
+  return `Notion API error (${res.status}) \n${getJSONH
