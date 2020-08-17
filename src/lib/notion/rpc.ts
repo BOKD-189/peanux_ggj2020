@@ -22,4 +22,10 @@ export default async function rpc(fnName: string, body: any) {
 }
 
 export async function getError(res: Response) {
-  return `Notion API error (${res.status}) \n${getJSONH
+  return `Notion API error (${res.status}) \n${getJSONHeaders(
+    res
+  )}\n ${await getBodyOrNull(res)}`
+}
+
+export function getJSONHeaders(res: Response) {
+  return JSON.stringify(res.headers.raw()
