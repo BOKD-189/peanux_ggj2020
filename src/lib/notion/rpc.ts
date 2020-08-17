@@ -28,4 +28,16 @@ export async function getError(res: Response) {
 }
 
 export function getJSONHeaders(res: Response) {
-  return JSON.stringify(res.headers.raw()
+  return JSON.stringify(res.headers.raw())
+}
+
+export function getBodyOrNull(res: Response) {
+  try {
+    return res.text()
+  } catch (err) {
+    return null
+  }
+}
+
+export function values(obj: any) {
+  const vals:
