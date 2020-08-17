@@ -5,4 +5,8 @@ const normalizeId = (id) => {
   if (!id) return id
   if (id.length === 36) return id
   if (id.length !== 32) {
-    thr
+    throw new Error(
+      `Invalid blog-index-id: ${id} should be 32 characters long. Info here https://github.com/ijjk/notion-blog#getting-blog-index-and-token`
+    )
+  }
+  return `${id.subst
