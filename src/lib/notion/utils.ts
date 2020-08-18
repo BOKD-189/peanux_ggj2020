@@ -18,4 +18,11 @@ export function setHeaders(req: NextApiRequest, res: NextApiResponse): boolean {
 export async function handleData(res: NextApiResponse, data: any) {
   data = data || { status: 'error', message: 'unhandled request' }
   res.status(data.status !== 'error' ? 200 : 500)
-  res.j
+  res.json(data)
+}
+
+export function handleError(res: NextApiResponse, error: string | Error) {
+  console.error(error)
+  res.status(500).json({
+    status: 'error',
+    mess
