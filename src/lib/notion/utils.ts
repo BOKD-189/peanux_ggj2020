@@ -25,4 +25,6 @@ export function handleError(res: NextApiResponse, error: string | Error) {
   console.error(error)
   res.status(500).json({
     status: 'error',
-    mess
+    message: 'an error occurred processing request',
+  })
+}
