@@ -9,4 +9,11 @@ const normalizeId = (id) => {
       `Invalid blog-index-id: ${id} should be 32 characters long. Info here https://github.com/ijjk/notion-blog#getting-blog-index-and-token`
     )
   }
-  return `${id.subst
+  return `${id.substr(0, 8)}-${id.substr(8, 4)}-${id.substr(12, 4)}-${id.substr(
+    16,
+    4
+  )}-${id.substr(20)}`
+}
+
+const NOTION_TOKEN = process.env.NOTION_TOKEN
+const BLOG_INDEX_ID = nor
