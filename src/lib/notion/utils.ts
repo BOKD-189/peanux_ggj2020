@@ -15,4 +15,7 @@ export function setHeaders(req: NextApiRequest, res: NextApiResponse): boolean {
   return false
 }
 
-export async function handle
+export async function handleData(res: NextApiResponse, data: any) {
+  data = data || { status: 'error', message: 'unhandled request' }
+  res.status(data.status !== 'error' ? 200 : 500)
+  res.j
