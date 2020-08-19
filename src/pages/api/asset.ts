@@ -10,4 +10,10 @@ export default async function notionApi(
   try {
     const { assetUrl, blockId } = req.query as { [k: string]: string }
 
-    if (!asse
+    if (!assetUrl || !blockId) {
+      handleData(res, {
+        status: 'error',
+        message: 'asset url or blockId missing',
+      })
+    } else {
+      // we need to re-
