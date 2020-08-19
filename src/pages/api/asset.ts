@@ -16,4 +16,7 @@ export default async function notionApi(
         message: 'asset url or blockId missing',
       })
     } else {
-      // we need to re-
+      // we need to re-encode it since it's decoded when added to req.query
+      const { signedUrls = [], ...urlsResponse } = await getNotionAssetUrls(
+        res,
+        assetUrl,
