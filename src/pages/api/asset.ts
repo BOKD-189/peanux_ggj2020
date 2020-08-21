@@ -20,3 +20,9 @@ export default async function notionApi(
       const { signedUrls = [], ...urlsResponse } = await getNotionAssetUrls(
         res,
         assetUrl,
+        blockId
+      )
+
+      if (signedUrls.length === 0) {
+        console.error('Failed to get signedUrls', urlsResponse)
+        return handleData(res, 
