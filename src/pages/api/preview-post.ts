@@ -11,4 +11,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     return res.status(404).json({ message: 'not authorized' })
   }
 
-  if (typeof req.query.slug !== 'str
+  if (typeof req.query.slug !== 'string') {
+    return res.status(401).json({ message: 'invalid slug' })
+  }
+  const postsTable = await getBlogIndex()
+  const post = postsTable[req.query.
