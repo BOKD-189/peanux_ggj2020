@@ -15,4 +15,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     return res.status(401).json({ message: 'invalid slug' })
   }
   const postsTable = await getBlogIndex()
-  const post = postsTable[req.query.
+  const post = postsTable[req.query.slug]
+
+  if (!post) {
+    console.log(`Failed to find post for slug: ${req.query.slug}`)
+    return res.status(404).json({
+      message: `no post found for ${r
