@@ -29,3 +29,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (!postData) {
     return res.status(401).json({ message: 'Invalid slug' })
   }
+
+  res.setPreviewData({})
+  res.writeHead(307, { Location: getBlogLink(post.Slug) })
+  res.end()
+}
