@@ -399,3 +399,87 @@ const RenderPost = ({ post, redirect, preview }) => {
                 if (language === 'LiveScript') {
                   // this requires the DOM for now
                   toRender.push(
+                    <ReactJSXParser
+                      key={id}
+                      jsx={content}
+                      components={components}
+                      componentsOnly={false}
+                      renderInpost={false}
+                      allowUnknownElements={true}
+                      blacklistedTags={['script', 'style']}
+                    />
+                  )
+                } else {
+                  toRender.push(
+                    <components.Code key={id} language={language || ''}>
+                      {content}
+                    </components.Code>
+                  )
+                }
+              }
+              break
+            }
+            case 'quote': {
+              if (properties.title) {
+                toRender.push(
+                  React.createElement(
+                    components.blockquote,
+                    { key: id },
+                    properties.title
+                  )
+                )
+              }
+              break
+            }
+            case 'callout': {
+              toRender.push(
+                <div className="callout" key={id}>
+                  {value.format?.page_icon && (
+                    <div>{value.format?.page_icon}</div>
+                  )}
+                  <div className="text">
+                    {textBlock(properties.title, true, id)}
+                  </div>
+                </div>
+              )
+              break
+            }
+            case 'tweet': {
+              if (properties.html) {
+                toRender.push(
+                  <div
+                    dangerouslySetInnerHTML={{ __html: properties.html }}
+                    key={id}
+                  />
+                )
+              }
+              break
+            }
+            case 'equation': {
+              if (properties && properties.title) {
+                const content = properties.title[0][0]
+                toRender.push(
+                  <components.Equation key={id} displayMode={true}>
+                    {content}
+                  </components.Equation>
+                )
+              }
+              break
+            }
+            default:
+              if (
+                process.env.NODE_ENV !== 'production' &&
+                !listTypes.has(type)
+              ) {
+                console.log('unknown type', type)
+              }
+              break
+          }
+          return toRender
+        })}
+      </div>
+    </>
+  )
+}
+
+export default RenderPost
