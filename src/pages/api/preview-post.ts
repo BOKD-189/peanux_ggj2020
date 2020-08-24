@@ -20,4 +20,12 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (!post) {
     console.log(`Failed to find post for slug: ${req.query.slug}`)
     return res.status(404).json({
-      message: `no post found for ${r
+      message: `no post found for ${req.query.slug}`,
+    })
+  }
+
+  const postData = await getPageData(post.id)
+
+  if (!postData) {
+    return res.status(401).json({ message: 'Invalid slug' })
+  }
