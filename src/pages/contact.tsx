@@ -27,4 +27,12 @@ const contacts = [
   },
   {
     Comp: Envelope,
-    
+    alt: 'envelope icon',
+    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+  },
+]
+
+export default function Contact() {
+  return (
+    <>
+      <Header titlePre="Contact" 
