@@ -18,4 +18,13 @@ const contacts = [
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ij
+    link: 'https://github.com/ijjk',
+  },
+  {
+    Comp: LinkedIn,
+    alt: 'linkedin icon',
+    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
+  },
+  {
+    Comp: Envelope,
+    
