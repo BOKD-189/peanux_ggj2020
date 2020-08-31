@@ -35,4 +35,8 @@ const contacts = [
 export default function Contact() {
   return (
     <>
-      <Header titlePre="Contact" 
+      <Header titlePre="Contact" />
+      <div className={sharedStyles.layout}>
+        <div className={contactStyles.avatar}>
+          <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
+     
