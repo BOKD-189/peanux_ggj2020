@@ -45,4 +45,8 @@ export default function Contact() {
 
         <div className={contactStyles.name}>
           JJ Kasper - Next.js Engineer @{' '}
-         
+          <ExtLink href="https://vercel.com">Vercel</ExtLink>
+        </div>
+
+        <div className={contactStyles.links}>
+          {contacts.map(({ Comp, lin
