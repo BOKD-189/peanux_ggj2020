@@ -53,4 +53,11 @@ export default function Contact() {
             return (
               <ExtLink key={link} href={link} aria-label={alt}>
                 <Comp height={32} />
-              </ExtLin
+              </ExtLink>
+            )
+          })}
+        </div>
+      </div>
+    </>
+  )
+}
