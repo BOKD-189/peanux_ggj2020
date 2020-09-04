@@ -22,4 +22,13 @@ export default function Index() {
             className="dotted"
             style={{ color: 'inherit' }}
           >
-       
+            SSG
+          </ExtLink>
+        </h2>
+
+        <Features />
+
+        <div className="explanation">
+          <p>
+            This is a statically generated{' '}
+            
