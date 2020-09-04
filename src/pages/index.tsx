@@ -11,4 +11,10 @@ export default function Index() {
         <img
           src="/vercel-and-notion.png"
           height="85"
-       
+          width="250"
+          alt="Vercel + Notion"
+        />
+        <h1>My Notion Blog</h1>
+        <h2>
+          Blazing Fast Notion Blog with Next.js'{' '}
+     
