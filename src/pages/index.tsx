@@ -39,4 +39,7 @@ export default function Index() {
               SSG support
             </ExtLink>{' '}
             and{' '}
-            <ExtLink href=
+            <ExtLink href="https://github.com/vercel/next.js/issues/8626">
+              built-in CSS support
+            </ExtLink>{' '}
+            which allow us to achieve all of 
