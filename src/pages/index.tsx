@@ -35,4 +35,8 @@ export default function Index() {
             <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
             is deployed with <ExtLink href="https://vercel.com">Vercel</ExtLink>
             . It leverages some upcoming features in Next.js like{' '}
-            <ExtLink href="https://github
+            <ExtLink href="https://github.com/vercel/next.js/issues/9524">
+              SSG support
+            </ExtLink>{' '}
+            and{' '}
+            <ExtLink href=
