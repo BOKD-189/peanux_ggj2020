@@ -56,4 +56,12 @@ export default function Index() {
               here in the readme
             </ExtLink>{' '}
             for finding the new page's id. To get your token from Notion, login
-            and look for a cookie under www.notion.so with the na
+            and look for a cookie under www.notion.so with the name `token_v2`.
+            After finding your token and your blog's page id you should be good
+            to go!
+          </p>
+        </div>
+      </div>
+    </>
+  )
+}
