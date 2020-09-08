@@ -47,3 +47,6 @@ export default function Index() {
             being available!
           </p>
 
+          <p>
+            Get started by creating a new page in Notion and clicking the deploy
+            button below. After you supply your token and the 
