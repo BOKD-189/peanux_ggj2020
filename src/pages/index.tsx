@@ -54,4 +54,6 @@ export default function Index() {
             See{' '}
             <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
               here in the readme
-            
+            </ExtLink>{' '}
+            for finding the new page's id. To get your token from Notion, login
+            and look for a cookie under www.notion.so with the na
