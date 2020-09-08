@@ -12,4 +12,11 @@
 }
 
 .previewAlert {
-  display: in
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  width: 400px;
+  padding: 16px;
+  border-
