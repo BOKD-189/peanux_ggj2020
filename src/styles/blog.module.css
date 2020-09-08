@@ -28,4 +28,12 @@
   align-items: center;
   justify-content: center;
   border: none;
-  backgr
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  height: 24px;
+  border-radius: 5px;
+  transition: all 0.2s ease 0s;
+}
+.esca
