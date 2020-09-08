@@ -1,1 +1,15 @@
-.blogInde
+.blogIndex {
+  padding: 0 5%;
+}
+
+.blogIndex h1 {
+  margin-bottom: 50px;
+}
+
+.previewAlertContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.previewAlert {
+  display: in
