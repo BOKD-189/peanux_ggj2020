@@ -52,4 +52,6 @@ export default function Index() {
             button below. After you supply your token and the blog index id (the
             page's id in Notion) we will automatically create the table for you!
             See{' '}
-          
+            <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
+              here in the readme
+            
