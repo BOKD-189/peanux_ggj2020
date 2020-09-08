@@ -42,4 +42,8 @@ export default function Index() {
             <ExtLink href="https://github.com/vercel/next.js/issues/8626">
               built-in CSS support
             </ExtLink>{' '}
-            which allow us to achieve all of 
+            which allow us to achieve all of the benefits listed above including
+            blazing fast speeds, great local editing experience, and always
+            being available!
+          </p>
+
