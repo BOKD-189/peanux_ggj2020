@@ -36,4 +36,13 @@
   border-radius: 5px;
   transition: all 0.2s ease 0s;
 }
-.esca
+.escapePreview:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.titleContainer {
+  display: inline-flex;
+  align-items: cen
