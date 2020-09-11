@@ -65,4 +65,17 @@
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
-  border-bottom: 1p
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.postPreview:last-child {
+  border-bottom: none;
+}
+
+.postPreview h3,
+.post h1 {
+  margin-bottom: 0;
+}
+
+.post h1 {
+  margin-top: 
