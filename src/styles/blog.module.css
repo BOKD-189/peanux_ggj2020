@@ -141,4 +141,16 @@
   width: 100%;
   max-width: 100%;
   margin-top: 8px;
-  margin-b
+  margin-bottom: 8px;
+  background-color: var(--bg);
+}
+
+.bookmark img {
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bookmarkContentsWrapper {
+  display: block;
+  color
