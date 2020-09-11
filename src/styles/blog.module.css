@@ -45,4 +45,12 @@
 
 .titleContainer {
   display: inline-flex;
-  align-items: cen
+  align-items: center;
+  justify-content: flex-start;
+}
+.draftBadge {
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 20
