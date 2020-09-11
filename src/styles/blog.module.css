@@ -53,4 +53,16 @@
   background-color: black;
   color: white;
   font-size: 14px;
-  font-weight: 20
+  font-weight: 200;
+  padding: 2px 7px;
+  margin-right: 6px;
+}
+
+.noPosts {
+  text-align: center;
+}
+
+.postPreview {
+  max-width: 600px;
+  margin: 10px auto;
+  border-bottom: 1p
