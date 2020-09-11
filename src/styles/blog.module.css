@@ -97,4 +97,13 @@
 
 .post :global(.tweet) {
   margin: 2rem auto;
-  te
+  text-align: center;
+}
+
+.post :global(.callout) {
+  padding: 16px 16px 16px 12px;
+  display: flex;
+  width: 100%;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style:
