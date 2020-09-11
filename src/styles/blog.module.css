@@ -115,4 +115,15 @@
   margin-left: 8px;
 }
 
-.post :global(.un
+.post :global(.underline) {
+  text-decoration: underline;
+}
+
+.postPreview :global(.posted) {
+  margin-bottom: 0.5em;
+}
+
+.post {
+  max-width: calc(600px + 10%);
+  margin: 0 auto;
+  padd
