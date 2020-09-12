@@ -163,4 +163,10 @@
   user-select: none;
   cursor: pointer;
   width: 100%;
-  display: 
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: stretch;
+  text-align: left;
+  overflow: hidden;
+  border: 1px solid #cacaca;
+  border-radius: 3
