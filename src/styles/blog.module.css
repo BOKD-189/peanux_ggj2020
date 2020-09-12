@@ -178,4 +178,13 @@
 .bookmarkInfo {
   flex: 4 1 180px;
   padding: 12px 14px 14px;
-  overflow: h
+  overflow: hidden;
+  text-align: left;
+}
+
+.bookmarkTitle {
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellips
