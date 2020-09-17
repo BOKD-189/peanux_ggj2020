@@ -211,4 +211,13 @@
 }
 
 .bookmarkLink {
-  font-size: 12p
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 6px;
+}
+
+.bookmarkCoverWrapper1 {
+  fle
