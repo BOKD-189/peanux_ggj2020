@@ -2,4 +2,15 @@
   display: block;
   margin: 1rem auto;
   max-width: 500px;
-  text-align
+  text-align: center;
+}
+
+.links a {
+  width: 48px;
+  height: 48px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: opacity 200ms ease;
+}
+
+.links a:ho
