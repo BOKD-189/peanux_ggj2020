@@ -199,4 +199,16 @@
   overflow: hidden;
 }
 
-.bookmarkLinkWr
+.bookmarkLinkWrapper {
+  display: flex;
+  margin-top: 6px;
+}
+
+.bookmarkLinkIcon {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+}
+
+.bookmarkLink {
+  font-size: 12p
