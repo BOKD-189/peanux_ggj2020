@@ -13,4 +13,19 @@
   transition: opacity 200ms ease;
 }
 
-.links a:ho
+.links a:hover {
+  opacity: 0.6;
+}
+
+.avatar {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.avatar img {
+  height: 120px;
+}
+
+.name {
+  text-al
