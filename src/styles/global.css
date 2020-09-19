@@ -1,0 +1,110 @@
+
+:root {
+  --gap-quarter: 0.25rem;
+  --gap-half: 0.5rem;
+  --gap: 1rem;
+  --gap-double: 2rem;
+
+  --bg: #fff;
+  --fg: #000;
+  --accents-1: #111;
+  --accents-2: #333;
+  --accents-3: #888;
+  --geist-foreground: #000;
+
+  --radius: 8px;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --font-mono: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-image: radial-gradient(#ddd 1px, transparent 1px),
+    radial-gradient(#ddd 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-attachment: fixed;
+  background-size: 50px 50px;
+
+  /* Hack */
+  overflow-x: hidden;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #000;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  font-size: 0.95em;
+  line-height: 1.4em;
+  tab-size: 4;
+  hyphens: none;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
+}
+.token.namespace {
+  opacity: 0.7;
+}
+.token.string,
+.token.attr-value {
+  color: #028265;
+}
+.token.punctuation,
+.token.operator {
+  color: #000;
+}
+.token.url,
+.token.symbol,
+.token.boolean,
+.token.variable,
+.token.constant {
+  color: #36acaa;
+}
+.token.atrule,
+.language-autohotkey .token.selector,
+.language-json .token.boolean,
+code[class*='language-css'] {
+  font-weight: 600;
+}
+.language-json .token.boolean {
+  color: var(--geist-success);
+}
+.token.keyword {
+  color: #ff0078;
+  font-weight: bolder;
+}
+.token.function,
+.token.tag,
+.token.class-name,
+.token.number,
+.token.tag .token.punctuation {
+  color: var(--geist-success);
+}
+.language-autohotkey .token.tag {
+  color: #9a050f;
+}

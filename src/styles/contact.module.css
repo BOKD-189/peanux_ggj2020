@@ -28,4 +28,9 @@
 }
 
 .name {
-  text-al
+  text-align: center;
+}
+
+.name a {
+  color: inherit;
+}
