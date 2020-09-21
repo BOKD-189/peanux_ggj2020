@@ -1,4 +1,15 @@
 .header {
   display: block;
   min-height: 64px;
-  padding: 2em 0
+  padding: 2em 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline-block;
