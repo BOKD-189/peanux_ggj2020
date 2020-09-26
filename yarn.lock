@@ -55,4 +55,6 @@
     js-tokens "^4.0.0"
 
 "@babel/plugin-syntax-jsx@7.14.5":
-  versi
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.14.5.tgz#000e2e25d8673cce49300517a3eda44c263e4201"
+  
