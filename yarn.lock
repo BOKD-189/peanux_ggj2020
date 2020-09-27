@@ -68,4 +68,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babe
+"@babel/types@7.15.0":
+  version "7.15.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.15.0.tgz#61af11f2286c4e9c69ca8deb5f4375a73c72dcbd"
