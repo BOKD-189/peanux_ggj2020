@@ -78,4 +78,6 @@
 
 "@hapi/accept@5.0.2":
   version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab704
+  resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab7043b037e68b722f93f376afb05e85c0699523"
+  integrity sha512-CmzBx/bXUR8451fnZRuZAJRlzgm0Jgu5dltTX/bszmR2lheb9BpyN47Q1RbaGTsvFzn0PXAEs+lXDKfshccYZw==
+  
