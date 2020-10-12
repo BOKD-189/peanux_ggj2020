@@ -108,4 +108,5 @@
 
 "@next/polyfill-module@11.1.2":
   version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@next
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-11.1.2.tgz#1fe92c364fdc81add775a16c678f5057c6aace98"
+  integrity sha512-xZmixqADM3xxtqBV0TpAwSFzWJP0MOQzRfzItHXf1LdQHWb0yofHHC+7eO
