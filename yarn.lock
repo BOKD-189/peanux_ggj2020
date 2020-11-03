@@ -187,4 +187,5 @@
 
 "@types/prop-types@*":
   version "15.7.3"
-  resolved "ht
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG
