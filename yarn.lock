@@ -200,4 +200,5 @@
 
 "@zeit/react-jsx-parser@2.0.0":
   version "2.0.0"
-  resolve
+  resolved "https://registry.yarnpkg.com/@zeit/react-jsx-parser/-/react-jsx-parser-2.0.0.tgz#d9261be2c8e3024cf355c69569ef3f355805d903"
+  integrity sha512-aMt6Je4XRpy9QrUnaauVd1EmWYrv
