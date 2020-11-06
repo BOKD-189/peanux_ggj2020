@@ -201,4 +201,10 @@
 "@zeit/react-jsx-parser@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@zeit/react-jsx-parser/-/react-jsx-parser-2.0.0.tgz#d9261be2c8e3024cf355c69569ef3f355805d903"
-  integrity sha512-aMt6Je4XRpy9QrUnaauVd1EmWYrv
+  integrity sha512-aMt6Je4XRpy9QrUnaauVd1EmWYrvj6Din7iFu83p1N1g18eUhGuyCwi6h5JR/DFIpsOO8YXl1jfYtM2Xo/mBRQ==
+  dependencies:
+    acorn-jsx "^4.1.1"
+
+acorn-jsx@^4.1.1:
+  version "4.1.1"
+  resolved "https:/
