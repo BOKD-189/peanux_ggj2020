@@ -232,4 +232,5 @@ anser@1.4.9:
 
 ansi-colors@^4.1.1:
   version "4.1.1"
-  re
+  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
+  integrity sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ6
