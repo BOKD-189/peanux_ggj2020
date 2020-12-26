@@ -409,4 +409,5 @@ browserify-rsa@^4.0.0, browserify-rsa@^4.0.1:
 
 browserify-sign@^4.0.0:
   version "4.2.0"
-  resolved "https://reg
+  resolved "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.2.0.tgz#545d0b1b07e6b2c99211082bf1b12cce7a0b0e11"
+  integrity sha512-hEZC1KEeYuoHRqhGhTy6gWr
