@@ -410,4 +410,9 @@ browserify-rsa@^4.0.0, browserify-rsa@^4.0.1:
 browserify-sign@^4.0.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.2.0.tgz#545d0b1b07e6b2c99211082bf1b12cce7a0b0e11"
-  integrity sha512-hEZC1KEeYuoHRqhGhTy6gWr
+  integrity sha512-hEZC1KEeYuoHRqhGhTy6gWrpJA3ZDjFWv0DE61643ZnOXAKJb3u7yWcrU0mMc9SwAqK1n7myPGndkp0dFG7NFA==
+  dependencies:
+    bn.js "^5.1.1"
+    browserify-rsa "^4.0.1"
+    create-hash "^1.2.0"
+    cr
