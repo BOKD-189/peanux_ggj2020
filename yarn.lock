@@ -537,4 +537,9 @@ chokidar@3.5.1:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.5.0"
-  optionalDepend
+  optionalDependencies:
+    fsevents "~2.3.1"
+
+cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/c
