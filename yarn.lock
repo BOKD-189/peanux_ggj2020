@@ -583,4 +583,6 @@ clipboard@^2.0.0:
     tiny-emitter "^2.0.0"
 
 color-convert@^1.9.0:
-  version 
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
+  integrity s
