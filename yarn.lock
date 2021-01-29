@@ -590,4 +590,6 @@ color-convert@^1.9.0:
     color-name "1.1.3"
 
 color-convert@^2.0.1:
-  v
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha512-RRECPsj
