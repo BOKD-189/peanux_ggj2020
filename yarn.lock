@@ -623,4 +623,8 @@ commander@^6.2.0:
 
 commondir@^1.0.1:
   version "1.0.1"
-  resolved "https://regis
+  resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
+  integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
+
+concat-stream@^1.4.7:
+  ve
