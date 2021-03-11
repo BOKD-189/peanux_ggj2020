@@ -648,4 +648,5 @@ constants-browserify@1.0.0, constants-browserify@^1.0.0:
 
 convert-source-map@1.7.0:
   version "1.7.0"
-  r
+  resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
+  integrity sha512-4FJkXzKXEDB1snC
