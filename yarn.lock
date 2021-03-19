@@ -671,4 +671,5 @@ cosmiconfig@^7.0.0:
 
 create-ecdh@^4.0.0:
   version "4.0.3"
-  reso
+  resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"
+  integrity sha512-GbEHQPMOswGpKXM9kCWVr
