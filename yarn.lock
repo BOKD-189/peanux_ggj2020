@@ -728,4 +728,12 @@ crypto-browserify@3.12.0, crypto-browserify@^3.11.0:
     create-ecdh "^4.0.0"
     create-hash "^1.1.0"
     create-hmac "^1.1.0"
-    diffie-hellman "^5.0.
+    diffie-hellman "^5.0.0"
+    inherits "^2.0.1"
+    pbkdf2 "^3.0.3"
+    public-encrypt "^4.0.0"
+    randombytes "^2.0.0"
+    randomfill "^1.0.3"
+
+css.escape@1.5.1:
+  version "1.
