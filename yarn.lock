@@ -791,4 +791,6 @@ define-properties@^1.1.3:
     object-keys "^1.0.12"
 
 delegate@^3.1.2:
-  ve
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sh
