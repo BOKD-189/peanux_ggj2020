@@ -862,4 +862,5 @@ emojis-list@^2.0.0:
 
 encoding@0.1.13:
   version "0.1.13"
-  reso
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
+  integrity sha512-ETBauow1T35Y/WZMkio9jiM0Z5xj
