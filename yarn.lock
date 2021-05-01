@@ -869,4 +869,5 @@ encoding@0.1.13:
 
 end-of-stream@^1.1.0:
   version "1.4.4"
-  resolved "https://r
+  resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
+  integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7
