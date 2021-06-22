@@ -1063,4 +1063,10 @@ glob-to-regexp@^0.4.1:
 good-listener@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  integrity sha1-1TswzfkxPf
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
+
+graceful-fs@^4.1.2:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/graceful-fs
