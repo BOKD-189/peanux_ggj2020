@@ -1167,4 +1167,5 @@ iconv-lite@^0.6.2:
 
 ieee754@^1.1.4:
   version "1.1.13"
- 
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
+  integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNh
