@@ -1177,4 +1177,7 @@ image-size@1.0.0:
   dependencies:
     queue "6.0.2"
 
-import-fre
+import-fresh@^3.2.1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
+  integrity sha512-veY
