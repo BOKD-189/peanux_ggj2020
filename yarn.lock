@@ -1368,4 +1368,5 @@ json-parse-better-errors@^1.0.1:
 
 json5@^1.0.1:
   version "1.0.1"
-  resolve
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/
