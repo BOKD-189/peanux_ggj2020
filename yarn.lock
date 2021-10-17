@@ -1387,3 +1387,5 @@ lines-and-columns@^1.1.6:
 
 lint-staged@10.5.4:
   version "10.5.4"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.4.tgz#cd153b5f0987d2371fc1d2847a409a2fe705b665"
+  integrity sha
