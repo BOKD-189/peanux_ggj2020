@@ -1444,4 +1444,5 @@ lodash.sortby@^4.7.0:
 
 log-symbols@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-4.0.0.tgz#69b3cc46d20f448eccdb75ea1fa733d9e821c920"
+  integrity sha512-FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUb
