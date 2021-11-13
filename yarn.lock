@@ -1497,4 +1497,5 @@ merge-stream@^2.0.0:
 
 micromatch@^4.0.2:
   version "4.0.2"
-  resolved "h
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
+  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuK
