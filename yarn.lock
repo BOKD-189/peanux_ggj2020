@@ -1505,4 +1505,5 @@ micromatch@^4.0.2:
 
 miller-rabin@^4.0.0:
   version "4.0.1"
-  resol
+  resolved "https://registry.yarnpkg.com/miller-rabin/-/miller-rabin-4.0.1.tgz#f080351c865b0dc562a8462966daa53543c78a4d"
+  integrity sha512-115fLhvZVqWwHPbClyn
