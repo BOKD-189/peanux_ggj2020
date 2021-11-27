@@ -1513,4 +1513,5 @@ miller-rabin@^4.0.0:
 
 mimic-fn@^2.1.0:
   version "2.1.0"
-  resolved 
+  resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+  integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJj
