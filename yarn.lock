@@ -1543,4 +1543,5 @@ ms@2.1.2:
 
 nanoid@^3.1.23:
   version "3.1.30"
-  resolved "ht
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
+  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mB
