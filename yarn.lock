@@ -1548,4 +1548,6 @@ nanoid@^3.1.23:
 
 native-url@0.3.4:
   version "0.3.4"
-  resolved "https://registry.yarnpkg.com/native-url/-/nati
+  resolved "https://registry.yarnpkg.com/native-url/-/native-url-0.3.4.tgz#29c943172aed86c63cee62c8c04db7f5756661f8"
+  integrity sha512-6iM8R99ze45ivyH8vybJ7X0yekIcPf5GgLV5K0ENCbmRcaRIDoj37BC8iLEmaaBfqqb8enuZ5p0uhY+lVAbAcA==
+  d
