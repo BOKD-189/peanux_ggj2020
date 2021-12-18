@@ -1563,4 +1563,10 @@ next@^11.1.2:
     "@next/env" "11.1.2"
     "@next/polyfill-module" "11.1.2"
     "@next/react-dev-overlay" "11.1.2"
-    "@next/re
+    "@next/react-refresh-utils" "11.1.2"
+    "@node-rs/helper" "1.2.1"
+    assert "2.0.0"
+    ast-types "0.13.2"
+    browserify-zlib "0.2.0"
+    browserslist "4.16.6"
+    buffer
