@@ -1581,4 +1581,10 @@ next@^11.1.2:
     etag "1.8.1"
     find-cache-dir "3.3.1"
     get-orientation "1.1.2"
-    https-browserif
+    https-browserify "1.0.0"
+    image-size "1.0.0"
+    jest-worker "27.0.0-next.5"
+    native-url "0.3.4"
+    node-fetch "2.6.1"
+    node-html-parser "1.4.9"
+    node-libs-browser 
