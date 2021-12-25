@@ -1576,3 +1576,9 @@ next@^11.1.2:
     constants-browserify "1.0.0"
     crypto-browserify "3.12.0"
     cssnano-simple "3.0.0"
+    domain-browser "4.19.0"
+    encoding "0.1.13"
+    etag "1.8.1"
+    find-cache-dir "3.3.1"
+    get-orientation "1.1.2"
+    https-browserif
