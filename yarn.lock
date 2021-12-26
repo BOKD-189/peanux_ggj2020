@@ -1604,4 +1604,10 @@ next@^11.1.2:
     styled-jsx "4.0.1"
     timers-browserify "2.0.12"
     tty-browserify "0.0.1"
-    use-
+    use-subscription "1.5.1"
+    util "0.12.4"
+    vm-browserify "1.1.2"
+    watchpack "2.1.1"
+  optionalDependencies:
+    "@next/swc-darwin-arm64" "11.1.2"
+    "@nex
