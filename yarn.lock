@@ -1621,4 +1621,5 @@ node-fetch@2.6.1:
 
 node-html-parser@1.4.9:
   version "1.4.9"
-  resolved "https://registry.ya
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.4.9.tgz#3c8f6cac46479fae5800725edb532e9ae8fd816c"
+  integrity sha512-UVcirFD1Bn0O+TSmloHeHqZZCxHjvtIeGdVdGMhyZ8/PWlEiZ
