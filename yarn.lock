@@ -1640,4 +1640,10 @@ node-libs-browser@^2.2.1:
     domain-browser "^1.1.1"
     events "^3.0.0"
     https-browserify "^1.0.0"
-    os-b
+    os-browserify "^0.3.0"
+    path-browserify "0.0.1"
+    process "^0.11.10"
+    punycode "^1.2.4"
+    querystring-es3 "^0.2.0"
+    readable-stream "^2.3.3"
+    stream-browserify "^2.0
