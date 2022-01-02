@@ -1646,4 +1646,10 @@ node-libs-browser@^2.2.1:
     punycode "^1.2.4"
     querystring-es3 "^0.2.0"
     readable-stream "^2.3.3"
-    stream-browserify "^2.0
+    stream-browserify "^2.0.1"
+    stream-http "^2.7.2"
+    string_decoder "^1.0.0"
+    timers-browserify "^2.0.4"
+    tty-browserify "0.0.0"
+    url "^0.11.0"
+    util "^0.11.0"
