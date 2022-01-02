@@ -1653,3 +1653,8 @@ node-libs-browser@^2.2.1:
     tty-browserify "0.0.0"
     url "^0.11.0"
     util "^0.11.0"
+    vm-browserify "^1.0.1"
+
+node-releases@^1.1.71:
+  version "1.1.77"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.77.tgz#50b0cfede855dd374e7585
