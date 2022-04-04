@@ -1864,4 +1864,6 @@ pnp-webpack-plugin@1.6.4:
     ts-pnp "^1.1.6"
 
 postcss@8.2.15:
-  version "8.
+  version "8.2.15"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.15.tgz#9e66ccf07292817d226fc315cbbf9bc148fbca65"
+  integrity sha512-2zO3b26eJD/
