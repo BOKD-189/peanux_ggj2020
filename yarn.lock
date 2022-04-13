@@ -1870,4 +1870,8 @@ postcss@8.2.15:
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
-  
+    source-map "^0.6.1"
+
+pre-commit@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/pre-commit/-/pre-commit-1.2.2.tgz#dbcee0ee9de7235e57f79c56d7ce
