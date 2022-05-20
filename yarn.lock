@@ -1950,4 +1950,9 @@ querystring-es3@0.2.1, querystring-es3@^0.2.0:
 
 querystring@0.2.0, querystring@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/querystring/-/queryst
+  resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
+  integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+
+queue@6.0.2:
+  version "6.0.2"
+  resolv
