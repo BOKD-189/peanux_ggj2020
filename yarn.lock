@@ -2099,4 +2099,9 @@ scheduler@^0.20.2:
 
 select@^1.1.2:
   version "1.1.2"
-  resolved "https://registr
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+ 
