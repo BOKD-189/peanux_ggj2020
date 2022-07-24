@@ -2146,4 +2146,9 @@ shebang-command@^2.0.0:
 
 shebang-regex@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-regex/-/sheb
+  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+  integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https:
