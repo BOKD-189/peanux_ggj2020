@@ -2139,4 +2139,6 @@ shebang-command@^1.2.0:
 
 shebang-command@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2
+  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
+ 
