@@ -2174,4 +2174,6 @@ slice-ansi@^3.0.0:
     is-fullwidth-code-point "^3.0.0"
 
 slice-ansi@^4.0.0:
-  version "4
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-4.0.0.tgz#500e8dd0fd55b05815086255b3195adf2a45fe6b"
+  integrity sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHO
