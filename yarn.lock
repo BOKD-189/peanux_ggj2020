@@ -2189,4 +2189,5 @@ source-map@0.7.3:
 
 source-map@0.8.0-beta.0:
   version "0.8.0-beta.0"
-  resolved
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.8.0-beta.0.tgz#d4c1bb42c3f7ee925f005927ba10709e0d1d1f11"
+  integrity sha512-2ymg6oRBpebeZi9UUNsgQ89
