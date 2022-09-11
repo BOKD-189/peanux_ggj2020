@@ -2229,4 +2229,5 @@ stream-browserify@3.0.0:
 
 stream-browserify@^2.0.1:
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/strea
+  resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
+  integrity sha512-nX6hmklHs/gr2FuxYDltq8fJA1GDlxKQCz8O/IM4atRqBH8OORmBNgfvW5gG1
