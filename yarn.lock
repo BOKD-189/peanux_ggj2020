@@ -2258,4 +2258,7 @@ stream-http@^2.7.2:
 
 stream-parser@^0.3.1:
   version "0.3.1"
-  resolved "https://registry.yarnpkg.com/stream-
+  resolved "https://registry.yarnpkg.com/stream-parser/-/stream-parser-0.3.1.tgz#1618548694420021a1182ff0af1911c129761773"
+  integrity sha1-FhhUhpRCACGhGC/wrxkRwSl2F3M=
+  dependencies:
+ 
