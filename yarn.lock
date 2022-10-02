@@ -2284,4 +2284,5 @@ string-width@^4.1.0, string-width@^4.2.0:
 
 string.prototype.trimend@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.yarnpkg.com/string.prototype.trimend/-/string
+  resolved "https://registry.yarnpkg.com/string.prototype.trimend/-/string.prototype.trimend-1.0.4.tgz#e75ae90c2942c63504686c18b287b4a0b1a45f80"
+  integrity sha512-y9xCjw1P23Awk8EvTpcyL2NIr1j7wJ39f+k6lvRnSMz+mz9CGz9NYPelDk42
