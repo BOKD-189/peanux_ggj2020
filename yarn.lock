@@ -2317,4 +2317,10 @@ stringify-object@^3.3.0:
   resolved "https://registry.yarnpkg.com/stringify-object/-/stringify-object-3.3.0.tgz#703065aefca19300d3ce88af4f5b3956d7556629"
   integrity sha512-rHqiFh1elqCQ9WPLIC8I0Q/g/wj5J1eMkyoiD6eoQApWHP0FtlK7rqnhmabL5VUY9JQCcqwwvlOaSuutekgyrw==
   dependencies:
-    get-own-enumera
+    get-own-enumerable-property-symbols "^3.0.0"
+    is-obj "^1.0.1"
+    is-regexp "^1.0.0"
+
+strip-ansi@6.0.0, strip-ansi@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/st
