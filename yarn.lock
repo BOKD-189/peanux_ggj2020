@@ -2392,4 +2392,5 @@ timers-browserify@2.0.12:
 
 timers-browserify@^2.0.4:
   version "2.0.11"
-  resolved "ht
+  resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.11.tgz#800b1f3eee272e5bc53ee465a04d0e804c31211f"
+  integrity sha512-
