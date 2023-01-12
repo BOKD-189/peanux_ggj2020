@@ -2428,4 +2428,9 @@ tr46@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
   integrity sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
-  dependen
+  dependencies:
+    punycode "^2.1.0"
+
+ts-pnp@^1.1.6:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
