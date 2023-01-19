@@ -2463,4 +2463,5 @@ type-fest@^0.7.1:
 
 typedarray@^0.0.6:
   version "0.0.6"
-  re
+  resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+  integrity sha1-hnrH
