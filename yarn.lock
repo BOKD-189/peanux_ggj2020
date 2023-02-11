@@ -2574,4 +2574,8 @@ whatwg-url@^7.0.0:
   dependencies:
     lodash.sortby "^4.7.0"
     tr46 "^1.0.1"
-    webidl
+    webidl-conversions "^4.0.2"
+
+which-boxed-primitive@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz#13757
